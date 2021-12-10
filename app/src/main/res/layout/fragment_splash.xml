@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashFragment">
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/icon_boy"
+        tools:ignore="contentDescription" />
+
+    <ImageView
+        android:id="@+id/wave_top"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/wave1"
+        tools:ignore="ImageContrastCheck, contentDescription"
+        />
+
+    <ImageView
+        android:id="@+id/wave_down"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/wave2"
+        tools:ignore="contentDescription"/>
+
+</FrameLayout>

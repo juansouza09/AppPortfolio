@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/projetosFragment">
+    <fragment
+        android:id="@+id/projetosFragment"
+        android:name="com.example.appportf.ProjetosFragment"
+        android:label="Meus Projetos"
+        tools:layout="@layout/fragment_projetos" />
+    <fragment
+        android:id="@+id/cursosFragment"
+        android:name="com.example.appportf.CursosFragment"
+        android:label="Meus Cursos"
+        tools:layout="@layout/fragment_cursos" />
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.example.appportf.SobreFragment"
+        android:label="Sobre mim"
+        tools:layout="@layout/fragment_sobre" />
+    <fragment
+        android:id="@+id/contatoFragment"
+        android:name="com.example.appportf.ContatoFragment"
+        android:label="Contatos"
+        tools:layout="@layout/fragment_contato" />
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/projetosFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_projetos"
+        android:title="@string/projetos"/>
+    <item
+        android:id="@+id/cursosFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_curso"
+        android:title="@string/cursos"/>
+    <item
+        android:id="@+id/sobreFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_sobremim"
+        android:title="@string/sobreMim"/>
+    <item
+        android:id="@+id/contatoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_contato"
+        android:title="@string/contato"/>
+</menu>
