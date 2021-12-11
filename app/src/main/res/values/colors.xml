@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="White">#FFFFFFFF</color>
-    <color name="DarkBlue">#051730</color>
-    <color name="LightPurple">#C0BCFC</color>
-    <color name="LightBlue">#AFCAFE</color>
-    <color name="Yellow">#FAD200</color>
-    <color name="Orange">#FFA500</color>
-    <color name="LightOrange">#FFC8A0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkBlue">#051730</color>
+    <color name="lightPurple">#C0BCFC</color>
+    <color name="lightBlue">#AFCAFE</color>
+    <color name="yellow">#FAD200</color>
+    <color name="orange">#FFA500</color>
+    <color name="lightOrange">#FFC8A0</color>
+    <color name="black">#000000</color>
 </resources>

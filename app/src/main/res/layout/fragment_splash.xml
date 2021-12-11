@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SplashFragment">
 
     <ImageView
         android:id="@+id/img_splash"
         android:layout_width="200sp"
         android:layout_height="200sp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="200dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="4dp"
         android:src="@drawable/icon_boy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wave_top"
         tools:ignore="contentDescription" />
 
     <ImageView
         android:id="@+id/wave_top"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_marginTop="-30dp"
+        android:layout_marginTop="-50sp"
         android:src="@drawable/wave1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck, contentDescription" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100sp"
-        android:layout_marginTop="430sp"
+        android:layout_gravity="top"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="104dp"
         android:fontFamily="@font/acme"
         android:gravity="center"
         android:text="Juan Pablo"
@@ -37,14 +46,21 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFD539"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_splash" />
 
     <ImageView
         android:id="@+id/wave_down"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_marginTop="530sp"
+        android:layout_marginBottom="-85sp"
         android:src="@drawable/wave2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="contentDescription" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

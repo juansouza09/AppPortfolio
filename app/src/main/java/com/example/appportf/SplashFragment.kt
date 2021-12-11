@@ -23,6 +23,6 @@ class SplashFragment : AppCompatActivity() {
             startActivity(intent)
             finish()
 
-        }, 1000)
+        }, 900)
     }
 }
