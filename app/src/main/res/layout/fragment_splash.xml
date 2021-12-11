@@ -23,6 +23,22 @@
         android:src="@drawable/wave1"
         tools:ignore="ImageContrastCheck, contentDescription" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="430sp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Juan Pablo"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFD539"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/wave_down"
         android:layout_width="wrap_content"
