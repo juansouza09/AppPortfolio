@@ -47,17 +47,52 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="Exemplo 01"
+                android:text="Alura: Formação Kotlin"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imgJuan"
+                android:id="@+id/c1"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:src="@drawable/gato"
+                android:src="@drawable/primeirospassos"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/array"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/exception"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/pacotes"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/recursos"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/setmap"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -65,18 +100,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="Exemplo 02"
+                android:text="Alura: JavaScript"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imgCat4"
+                android:id="@+id/cJs"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/gato"
+                android:src="@drawable/js"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/curso3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Alura: Flutter"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/flutter"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/flutter"
                 tools:ignore="ContentDescription" />
 
         </LinearLayout>

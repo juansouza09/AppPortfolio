@@ -64,10 +64,9 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imgJuan"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:src="@drawable/gato"
+                android:src="@drawable/telasplash"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -75,7 +74,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/gato"
+                android:src="@drawable/telalogin"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imgCat5"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/telacadastro"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imgCat6"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/telahome"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imgCat7"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/telahome2"
                 tools:ignore="ContentDescription" />
 
         </LinearLayout>
