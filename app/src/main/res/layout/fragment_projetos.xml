@@ -7,17 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".ProjetosFragment">
 
-    <ImageView
-        android:id="@+id/wave"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="-30sp"
-        android:src="@drawable/wave1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,13 +36,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/black"
                 android:layout_marginTop="-50dp"
                 android:layout_marginRight="10dp"
                 android:text="Lorem ipsum dolor sit amet. Qui impedit earum 33 culpa expedita et voluptas ipsam quo reiciendis voluptate aut dolor rerum? Aut quod omnis et tenetur dolore et dolores odio cum exercitationem inventore vel consequuntur minima et quasi obcaecati. Et esse voluptas eum iusto aspernatur qui culpa voluptate!"
                 android:textAlignment="viewStart"
+                android:textColor="@color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -105,4 +94,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
