@@ -5,14 +5,14 @@
     <color name="lightPurple">#C0BCFC</color>
     <color name="lightBlue">#AFCAFE</color>
     <color name="yellow">#FAD200</color>
-    <color name="orange">#000000</color>
+    <color name="orange">#FFA500</color>
     <color name="lightOrange">#FFC8A0</color>
     <color name="black">#000000</color>
 
     <color name="primary">#009688</color>
     <color name="primary_dark">#007968</color>
     <color name="primary_light">#B2DFDB</color>
-    <color name="accent">#000000</color>
+    <color name="accent">#FF9800</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
     <color name="icons">#FFFFFF</color>
