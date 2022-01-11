@@ -8,6 +8,9 @@
     <color name="orange">#FFA500</color>
     <color name="lightOrange">#FFC8A0</color>
     <color name="black">#000000</color>
+    <color name="colorDarkSemiTransparent">#FF9800</color>
+
+    C6000000
 
     <color name="primary">#009688</color>
     <color name="primary_dark">#007968</color>

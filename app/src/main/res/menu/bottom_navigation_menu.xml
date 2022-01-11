@@ -16,9 +16,4 @@
         android:icon="@drawable/ic_curso"
         android:title="@string/cursos"/>
 
-    <item
-        android:id="@+id/contatoFragment"
-        android:enabled="true"
-        android:icon="@drawable/ic_contato"
-        android:title="@string/contato"/>
 </menu>
